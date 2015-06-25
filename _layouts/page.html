@@ -1,7 +1,12 @@
 ---
-theme :
-  name : the-program
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/the-program/page.html %}
+
+<article class="page">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+</article>
