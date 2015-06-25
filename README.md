@@ -1,3 +1,29 @@
+# Pacman
+
+Pacman is a flat and responsive design theme for [Hexo](http://hexo.io).
+
+[Demo](http://A-limon.github.io/pacman) || [Alimon's Blog](http://yangjian.me)
+
+中文说明请访问[这里](http://A-limon.github.io/pacman/hello/introducing-pacman-theme/)
+##Installation
+###Install
+```
+$ git clone https://github.com/A-limon/pacman.git themes/pacman
+```
+**Pacman requires Hexo 2.4.5 and above.** 
+###Enable
+Modify `theme` setting in blog folder` _config.yml` to `pacman`.
+###Update
+```
+cd themes/pacman
+git pull
+```
+**please backup your `_config.yml` file before update.** 
+##Configuration
+
+Modify settings in  `/themes/pacman/_config.yml`.
+
+```
 ##### Menu
 menu:
   Home: /
@@ -24,8 +50,8 @@ rss: ## RSS address.
 imglogo:
   enable: true             ## display image logo true/false.
   src: img/logo.svg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
-favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
-apple_icon: img/pacman.jpg ## size:114px*114px,please put image into the theme folder `/pacman/source/img`.
+favicon: img/favicon.ico   ## size:16px*16px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
+apple_icon: img/pacman.jpg ## size:64px*64px,please put image into the theme folder `/pacman/source/img`.
 
 #### Author Avatar Picture
 author_img_enable: true ## display author avatar picture
@@ -64,7 +90,6 @@ author:
   github:     ## e.g. A-limon for https://github.com/A-limon
   facebook:   ## e.g. yangjian for https://favebook.com/yangjian
   tsina:      ## e.g. 1664838973  Your weibo ID,It will be used in share button.
-  linkedin:   ## e.g. in/jeffweiner08 for https://www.linkedin.com/in/jeffweiner08
 
 #### Comment
 duoshuo: 
@@ -88,11 +113,12 @@ google_analytics:
 #### Custom Search
 google_cse: 
   enable: false
-  cx:  ## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID
-## https://www.google.com/cse/ 
-## To enable the custom search You must create a "search" folder in '/source' and a "index.md" file
-## set the 'front-matter' as
-## layout: search 
-## title: search
-## ---
+  cx:  ## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID.
+## https://www.google.com/cse/
+```
+
+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/A-limon/pacman/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
